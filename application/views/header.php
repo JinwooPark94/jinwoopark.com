@@ -19,13 +19,15 @@
 	<header class="header">
         <nav class="header-nav">
             <div class="logo"><img src="/static/image/logo.png" alt="홈페이지 로고"></div>
-            <ul class="navbar-nav">
-                <li>home</li>
-                <li>intoduction</li>
-                <li>skill</li>
-                <li>portfolio</li>
-                <li>blog</li>
-                <li>contact</li>
-            </ul>  
+            <div class="navbar-wrapper">
+	            <ul class="navbar-nav">
+	                <li><a href="/">HOME</a></li>
+	                <li><a href="#introduction">INTRODUCTION</a></li>
+	                <li><a href="#skill">SKILL</a></li>
+	                <li><a href="#portfolio">PORTFOLIO</a></li>
+	                <li><a href="http://jinwoopark94.github.io" target="_blank">BLOG</a></li>
+	                <li><a href="#contact">CONTACT</a></li>
+	            </ul>  
+        	</div>
         </nav>
 	</header>

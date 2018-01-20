@@ -1,5 +1,66 @@
 @charset "utf-8";
-.skip-nav
-{
-	
+
+@font-face {
+	font-family: 'NanumGothic';
+	src: url('/static/css/font/nanumgothic/NanumGothic.eot');
+	src: url('/static/css/font/nanumgothic/NanumGothic.eot?#iefix') format('embedded-opentype'), url('/static/css/font/nanumgothic/NanumGothic.woff') format('woff'), url('/static/css/font/nanumgothic/NanumGothic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumGothic';
+	font-weight: bold;
+	src: url('/static/css/font/nanumgothic/NanumGothic-Bold.eot');
+	src: url('/static/css/font/nanumgothic/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'), url('/static/css/font/nanumgothic/NanumGothic-Bold.woff2') format('woff2'), url('/static/css/font/nanumgothic/NanumGothic-Bold.woff') format('woff'), url('/static/css/font/nanumgothic/NanumGothic-Bold.ttf') format('truetype');
+}
+body {
+	font-family: 'NanumGothic', sans-serif;
+}
+/* 본문 바로가기 */
+.skip-nav {
+	display: none;
+}
+
+/* 헤더 부분 */
+.header {
+	border-bottom: 1px solid #e0e0e0;
+	box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.header-nav {
+	position: relative;
+	max-width: 1140px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	display: block;
+	margin-top: 13px;
+}
+
+.navbar-wrapper {
+	float: right;
+}
+
+.navbar-nav {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.navbar-nav > li {
+	float: left;
+	line-height: 55px;
+	padding: 0 15px;
+}
+
+.navbar-nav > li > a {
+	font-size: 13px;
+	color: #444;
+}
+
+/* main slider 임시*/
+.slider-slide > img{
+	width:100%
 }

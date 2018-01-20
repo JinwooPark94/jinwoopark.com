@@ -1,6 +1,6 @@
 	<section id="slider">
         <div class="slider-wrapper">
-            <div class="slider-slide"></div>
+            <div class="slider-slide"><img src="/static/image/main-image.jpg"/></div>
             <div class="slider-slide"></div>
             <div class="slider-slide"></div>
         </div>
@@ -45,7 +45,7 @@
     <section id="map-area">
         <div class="map-contents"></div>
     </section>
-    <section id="contact-us">
+    <section id="contact">
     	<div class="main-div">
     		<form class="contact-form">
                 <fieldset>
