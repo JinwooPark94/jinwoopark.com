@@ -8,28 +8,67 @@
 	display: none;
 }
 
+.header {
+	border-bottom: 1px solid #e0e0e0;
+	box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.header-nav {
+	position: relative;
+	max-width: 1140px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	display: block;
+	margin-top: 13px;
+}
+
+.navbar-wrapper {
+	float: right;
+}
+
+.navbar-nav {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.navbar-nav > li {
+	float: left;
+	line-height: 55px;
+	padding: 0 15px;
+}
+
+.navbar-nav > li > a {
+	font-size: 13px;
+	color: #444;
+}
+
 /* main slider 임시*/
-.slider-slide > img{
-	width:100%
+.slider-slide > img {
+	width: 100%
 }
 
-.main-div{
-	padding:80px 60px;
+.main-div {
+	padding: 80px 60px;
 }
 
-.hire-background{
-	background:url('/static/image/bg-img1.jpg') no-repeat left top;
-	height:500px; /*임시 설정*/
+.hire-background {
+	background: url('/static/image/bg-img1.jpg') no-repeat left top;
+	height: 500px; /*임시 설정*/
 }
 
-#map{
-	height:500px; /*임시 설정*/
+#map {
+	height: 500px; /*임시 설정*/
 }
 
-.footer{
-	background-color:#121212;
-	color:#fff;
+.footer {
+	background-color: #121212;
+	color: #fff;
 }
-.footer > div > p{
-	margin-bottom:0;
+.footer > div > p {
+	margin-bottom: 0;
 }
